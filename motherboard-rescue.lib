@@ -1,0 +1,125 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 0022232041-dk_Rectangular-Connectors-Headers-Male-Pins
+#
+DEF 0022232041-dk_Rectangular-Connectors-Headers-Male-Pins J 0 40 Y Y 1 F N
+F0 "J" -100 50 50 H V R CNN
+F1 "0022232041-dk_Rectangular-Connectors-Headers-Male-Pins" 150 -150 50 H V C CNN
+F2 "digikey-footprints:PinHeader_1x4_P2.54mm_Drill1.02mm" 200 200 60 H I L CNN
+F3 "https://www.molex.com/pdm_docs/sd/022232041_sd.pdf" 200 300 60 H I L CNN
+F4 "WM4202-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "0022232041" 200 500 60 H I L CNN "MPN"
+F6 "Connectors, Interconnects" 200 600 60 H I L CNN "Category"
+F7 "Rectangular Connectors - Headers, Male Pins" 200 700 60 H I L CNN "Family"
+F8 "https://www.molex.com/pdm_docs/sd/022232041_sd.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/molex/0022232041/WM4202-ND/26671" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "CONN HEADER VERT 4POS 2.54MM" 200 1000 60 H I L CNN "Description"
+F11 "Molex" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S -50 0 350 -100 1 1 0 f
+S -10 -45 10 -65 1 1 0 F
+S 90 -45 110 -65 1 1 0 F
+S 190 -45 210 -65 1 1 0 F
+S 290 -45 310 -65 1 1 0 F
+X ~ 1 0 100 100 D 50 50 1 1 P
+X ~ 2 100 100 100 D 50 50 1 1 P
+X ~ 3 200 100 100 D 50 50 1 1 P
+X ~ 4 300 100 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# LD1117S33CTR-dk_PMIC-Voltage-Regulators-Linear
+#
+DEF LD1117S33CTR-dk_PMIC-Voltage-Regulators-Linear U 0 20 Y Y 1 F N
+F0 "U" 50 150 60 H V C CNN
+F1 "LD1117S33CTR-dk_PMIC-Voltage-Regulators-Linear" 50 250 60 H V C CNN
+F2 "digikey-footprints:SOT-223" 200 200 60 H I L CNN
+F3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/99/3b/7d/91/91/51/4b/be/CD00000544.pdf/files/CD00000544.pdf/jcr:content/translations/en.CD00000544.pdf" 200 300 60 H I L CNN
+F4 "497-1241-1-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "LD1117S33CTR" 200 500 60 H I L CNN "MPN"
+F6 "Integrated Circuits (ICs)" 200 600 60 H I L CNN "Category"
+F7 "PMIC - Voltage Regulators - Linear" 200 700 60 H I L CNN "Family"
+F8 "http://www.st.com/content/ccc/resource/technical/document/datasheet/99/3b/7d/91/91/51/4b/be/CD00000544.pdf/files/CD00000544.pdf/jcr:content/translations/en.CD00000544.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/stmicroelectronics/LD1117S33CTR/497-1241-1-ND/586241" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "IC REG LINEAR 3.3V 800MA SOT223" 200 1000 60 H I L CNN "Description"
+F11 "STMicroelectronics" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S -200 100 300 -200 1 1 0 f
+X GND 1 0 -300 100 U 50 50 1 1 W
+X VOUT 2 400 0 100 L 50 50 1 1 w
+X VIN 3 -300 0 100 R 50 50 1 1 W
+X VOUT 4 400 -100 100 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+# N-MOSFET-passive
+#
+DEF N-MOSFET-passive Q 0 40 N N 1 F N
+F0 "Q" 150 125 60 H V L CNB
+F1 "N-MOSFET-passive" 150 -125 45 H V L CNN
+F2 "" 150 -200 45 H I L CNN
+F3 "" 150 -275 45 H I L CNN
+F4 "-" 150 200 45 H I L CNN "Part"
+F5 "IC" 150 275 50 H I L CNN "Family"
+DRAW
+C 25 0 103 0 1 0 N
+P 2 0 1 0 -25 -50 0 -50 N
+P 2 0 1 10 0 -75 0 75 N
+P 2 0 1 10 50 -75 50 75 N
+P 2 0 1 0 100 -50 50 -50 N
+P 3 0 1 0 100 -75 100 0 75 0 N
+P 3 0 1 0 100 75 100 50 50 50 N
+P 4 0 1 0 50 0 75 25 75 -25 50 0 F
+X G 1 -100 -50 75 R 40 45 1 1 P
+X S 2 100 -150 75 U 40 45 1 1 P
+X D 3 100 150 75 D 40 45 1 1 P
+ENDDRAW
+ENDDEF
+#
+# TMC5130A-BOB-trinamic_Evaluation-and-Demonstration-Boards-and-Kits
+#
+DEF TMC5130A-BOB-trinamic_Evaluation-and-Demonstration-Boards-and-Kits U 0 40 Y Y 1 F N
+F0 "U" 0 -50 40 H V C CNN
+F1 "TMC5130A-BOB-trinamic_Evaluation-and-Demonstration-Boards-and-Kits" 0 50 40 H V C CNN
+F2 "trinamic-footprints:22pin1x1,1-BOB" 850 200 40 H I L CNN
+F3 "https://www.trinamic.com/fileadmin/assets/Products/Eval_Documents/TMC5130A-BOB_datasheet_Rev1.0.pdf" 850 300 40 H I L CNN
+F4 "1460-1248-ND" 850 400 60 H I L CNN "Digi-Key_PN"
+F5 "TMC5130A-BOB" 850 500 60 H I L CNN "MPN"
+F6 "Development Boards, Kits, Programmers" 850 600 60 H I L CNN "Category"
+F7 "Evaluation and Demonstration Boards and Kits" 850 700 60 H I L CNN "Family"
+F8 "https://www.trinamic.com/fileadmin/assets/Products/Eval_Documents/TMC5130A-BOB_datasheet_Rev1.0.pdf" 850 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/trinamic-motion-control-gmbh/TMC5130A-BOB/1460-1248-ND/8037675" 850 900 60 H I L CNN "DK_Detail_Page"
+F10 "BREAKOUTBOARD WITH TMC5130A" 850 1000 60 H I L CNN "Description"
+F11 "Trinamic Motion Control GmbH" 850 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 850 1200 60 H I L CNN "Status"
+DRAW
+S -450 600 450 -600 0 1 0 f
+X VCC-(3,3V/5V) 1 0 700 100 D 25 25 1 1 U
+X REFL-(3,3V/5V) 10 -550 0 100 R 25 25 1 1 U
+X REFR-(3,3V/5V) 11 -550 -75 100 R 25 25 1 1 U
+X VS 12 75 700 100 D 25 25 1 1 U
+X GND 13 75 -700 100 U 25 25 1 1 U
+X OA1 14 550 325 100 L 25 25 1 1 U
+X OA2 15 550 400 100 L 25 25 1 1 U
+X OB1 16 550 475 100 L 25 25 1 1 U
+X OB2 17 550 550 100 L 25 25 1 1 U
+X GND 18 150 -700 100 U 25 25 1 1 U
+X AIN_IREF 19 -550 -150 100 R 25 25 1 1 U
+X GND 2 -75 -700 100 U 25 25 1 1 U
+X ENCA-(3,3V/5V) 20 -550 -275 100 R 25 25 1 1 U
+X ENCB-(3,3V/5V) 21 -550 -425 100 R 25 25 1 1 U
+X ENCN-(3,3V/5V) 22 -550 -350 100 R 25 25 1 1 U
+X CSN 3 -550 350 100 R 25 25 1 1 U
+X SCK 4 -550 275 100 R 25 25 1 1 U
+X SDI 5 -550 200 100 R 25 25 1 1 U
+X SDO 6 -550 125 100 R 25 25 1 1 U
+X GND 7 0 -700 100 U 25 25 1 1 U
+X CLK16 8 -550 550 100 R 25 25 1 1 U
+X DRV_ENN 9 -550 475 100 R 25 25 1 1 U
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,547 @@
+10-27 17:36:19 replicate_layout.action_replicate_layout 305:Plugin executed on: 'linux'
+10-27 17:36:19 replicate_layout.action_replicate_layout 306:Plugin executed with python version: '3.8.5 (default, Jul 28 2020, 12:59:40) \n[GCC 9.3.0]'
+10-27 17:36:19 replicate_layout.action_replicate_layout 307:KiCad build version: 5.1.7-a382d34a8~87~ubuntu20.04.1
+10-27 17:36:19 replicate_layout.action_replicate_layout 308:Replicate layout plugin version: 68 started
+10-27 17:36:19 replicate_layout.action_replicate_layout 319:wx top level windows: WindowList: [<wx._core.Frame object at 0x7f3455022940>, <wx._core.Frame object at 0x7f3455022f70>, <wx._core.Frame object at 0x7f3455022e50>, <wx._core.Frame object at 0x7f3455022d30>, <wx._core.Frame object at 0x7f341c8e98b0>, <wx._core.Frame object at 0x7f341c8e9040>]
+10-27 17:36:19 replicate_layout.action_replicate_layout 343:Preparing replicator with U2 as a reference
+10-27 17:36:19 replicate_layout.replicatelayout 215:getting project hierarchy from schematics
+10-27 17:36:19 replicate_layout.replicatelayout 217:Project hierarchy looks like:
+{'5F990647': ['sheet5F99063F', '/storage/Nextcloud/Uni/BA/Control/motherboard/motherboard/driver.sch'], '5F91370E': ['sheet5F91370A', '/storage/Nextcloud/Uni/BA/Control/motherboard/motherboard/driver.sch'], '5F914754': ['sheet5F91474F', '/storage/Nextcloud/Uni/BA/Control/motherboard/motherboard/driver.sch'], '5F914758': ['sheet5F914750', '/storage/Nextcloud/Uni/BA/Control/motherboard/motherboard/driver.sch'], '5F916D61': ['sheet5F916D5D', '/storage/Nextcloud/Uni/BA/Control/motherboard/motherboard/driver.sch'], '5F92CD29': ['sheet5F92CD21', '/storage/Nextcloud/Uni/BA/Control/motherboard/motherboard/driver.sch'], '5FAD5C89': ['sheet5FAD5C7F', '/storage/Nextcloud/Uni/BA/Control/motherboard/motherboard/driver.sch'], '5FAD5C8E': ['sheet5FAD5C80', '/storage/Nextcloud/Uni/BA/Control/motherboard/motherboard/driver.sch'], '5FAD5C93': ['sheet5FAD5C81', '/storage/Nextcloud/Uni/BA/Control/motherboard/motherboard/driver.sch'], '5FAD5C98': ['sheet5FAD5C82', '/storage/Nextcloud/Uni/BA/Control/motherboard/motherboard/driver.sch'], '5FAD5C9D': ['sheet5FAD5C83', '/storage/Nextcloud/Uni/BA/Control/motherboard/motherboard/driver.sch'], '5FAD5CA7': ['sheet5FAD5C84', '/storage/Nextcloud/Uni/BA/Control/motherboard/motherboard/driver.sch'], '5FAD7680': ['sheet5FAD7672', '/storage/Nextcloud/Uni/BA/Control/motherboard/motherboard/driver.sch'], '5FAD7685': ['sheet5FAD7673', '/storage/Nextcloud/Uni/BA/Control/motherboard/motherboard/driver.sch'], '5FAD768A': ['sheet5FAD7674', '/storage/Nextcloud/Uni/BA/Control/motherboard/motherboard/driver.sch'], '5FAD768F': ['sheet5FAD7675', '/storage/Nextcloud/Uni/BA/Control/motherboard/motherboard/driver.sch'], '5FAD7699': ['sheet5FAD7676', '/storage/Nextcloud/Uni/BA/Control/motherboard/motherboard/driver.sch'], '5FAD95E2': ['sheet5FAD95D8', '/storage/Nextcloud/Uni/BA/Control/motherboard/motherboard/driver.sch'], '5FAD95E7': ['sheet5FAD95D9', '/storage/Nextcloud/Uni/BA/Control/motherboard/motherboard/driver.sch'], '5FAD95EC': ['sheet5FAD95DA', '/storage/Nextcloud/Uni/BA/Control/motherboard/motherboard/driver.sch'], '5FAD95F1': ['sheet5FAD95DB', '/storage/Nextcloud/Uni/BA/Control/motherboard/motherboard/driver.sch'], '5FAD95F6': ['sheet5FAD95DC', '/storage/Nextcloud/Uni/BA/Control/motherboard/motherboard/driver.sch'], '5FAD9600': ['sheet5FAD95DD', '/storage/Nextcloud/Uni/BA/Control/motherboard/motherboard/driver.sch'], '5FADBB9F': ['sheet5FADBB95', '/storage/Nextcloud/Uni/BA/Control/motherboard/motherboard/driver.sch'], '5FADBBA4': ['sheet5FADBB96', '/storage/Nextcloud/Uni/BA/Control/motherboard/motherboard/driver.sch'], '5FADBBA9': ['sheet5FADBB97', '/storage/Nextcloud/Uni/BA/Control/motherboard/motherboard/driver.sch'], '5FADBBAE': ['sheet5FADBB98', '/storage/Nextcloud/Uni/BA/Control/motherboard/motherboard/driver.sch'], '5FADBBB3': ['sheet5FADBB99', '/storage/Nextcloud/Uni/BA/Control/motherboard/motherboard/driver.sch'], '5FADBBBD': ['sheet5FADBB9A', '/storage/Nextcloud/Uni/BA/Control/motherboard/motherboard/driver.sch'], '5F9DA207': ['LD1117V33', '/storage/Nextcloud/Uni/BA/Control/motherboard/motherboard/3.3vSupply.sch'], '5FAD767B': ['sheet5FAD7671', '/storage/Nextcloud/Uni/BA/Control/motherboard/motherboard/driver.sch'], '5FA589B0': ['Sheet5FA589AF', '/storage/Nextcloud/Uni/BA/Control/motherboard/motherboard/5vSupply.sch']}
+10-27 17:36:19 replicate_layout.replicatelayout 225:getting a list of all footprints on board
+10-27 17:36:19 replicate_layout.action_replicate_layout 369:source anchor footprint is 'U2'
+Located on:['sheet5F99063F']
+With filenames:['driver.sch']
+With sheet_id:['sheet5F99063F']
+10-27 17:36:19 replicate_layout.action_replicate_layout 374:Corresponding footprints are 
+[('U25', ['sheet5FADBB95']), ('U2', ['sheet5F99063F']), ('U32', ['sheet5FAD7671']), ('U30', ['sheet5FADBB9A']), ('U29', ['sheet5FADBB99']), ('U28', ['sheet5FADBB98']), ('U27', ['sheet5FADBB97']), ('U26', ['sheet5FADBB96']), ('U24', ['sheet5FAD95DD']), ('U23', ['sheet5FAD95DC']), ('U22', ['sheet5FAD95DB']), ('U21', ['sheet5FAD95DA']), ('U20', ['sheet5FAD95D9']), ('U19', ['sheet5FAD95D8']), ('U18', ['sheet5FAD7676']), ('U17', ['sheet5FAD7675']), ('U16', ['sheet5FAD7674']), ('U15', ['sheet5FAD7673']), ('U14', ['sheet5FAD7672']), ('U13', ['sheet5FAD5C84']), ('U12', ['sheet5FAD5C83']), ('U11', ['sheet5FAD5C82']), ('U10', ['sheet5FAD5C81']), ('U9', ['sheet5FAD5C80']), ('U8', ['sheet5FAD5C7F']), ('U7', ['sheet5F92CD21']), ('U6', ['sheet5F916D5D']), ('U5', ['sheet5F914750']), ('U4', ['sheet5F91474F']), ('U3', ['sheet5F91370A'])]
+10-27 17:36:19 replicate_layout.action_replicate_layout 387:Showing dialog
+10-27 17:36:19 replicate_layout.action_replicate_layout 391:Pcbnew position: wx.Point(-6, 0)
+10-27 17:36:19 replicate_layout.action_replicate_layout 397:Display 0: wx.Rect(0, 0, 3840, 2160)
+10-27 17:36:19 replicate_layout.action_replicate_layout 397:Display 1: wx.Rect(3840, 0, 1200, 1920)
+10-27 17:36:19 replicate_layout.action_replicate_layout 401:Toolbar position: wx.Point(3798, 98)
+10-27 17:36:19 replicate_layout.action_replicate_layout 408:Dialog position: wx.Point(3485, 98)
+10-27 17:36:19 replicate_layout.replicatelayout 249:construcing a list of sheets suitable for replication on level:'sheet5F99063F', file:'driver.sch'
+10-27 17:36:19 replicate_layout.replicatelayout 256:Source sheet path up to the level:['sheet5F99063F']
+10-27 17:36:19 replicate_layout.replicatelayout 260:Footprints on the sheets:
+['U25', 'U2', 'U32', 'U30', 'U29', 'U28', 'U27', 'U26', 'U24', 'U23', 'U22', 'U21', 'U20', 'U19', 'U18', 'U17', 'U16', 'U15', 'U14', 'U13', 'U12', 'U11', 'U10', 'U9', 'U8', 'U7', 'U6', 'U5', 'U4', 'U3']
+10-27 17:36:19 replicate_layout.replicatelayout 263:Footprints raw sheet ids:
+['/5FADBB9F/5F964629', '/5F990647/5F964629', '/5FAD767B/5F964629', '/5FADBBBD/5F964629', '/5FADBBB3/5F964629', '/5FADBBAE/5F964629', '/5FADBBA9/5F964629', '/5FADBBA4/5F964629', '/5FAD9600/5F964629', '/5FAD95F6/5F964629', '/5FAD95F1/5F964629', '/5FAD95EC/5F964629', '/5FAD95E7/5F964629', '/5FAD95E2/5F964629', '/5FAD7699/5F964629', '/5FAD768F/5F964629', '/5FAD768A/5F964629', '/5FAD7685/5F964629', '/5FAD7680/5F964629', '/5FAD5CA7/5F964629', '/5FAD5C9D/5F964629', '/5FAD5C98/5F964629', '/5FAD5C93/5F964629', '/5FAD5C8E/5F964629', '/5FAD5C89/5F964629', '/5F92CD29/5F964629', '/5F916D61/5F964629', '/5F914758/5F964629', '/5F914754/5F964629', '/5F91370E/5F964629']
+10-27 17:36:19 replicate_layout.replicatelayout 279:All sheets to replicate:
+[['sheet5FADBB95'], ['sheet5F99063F'], ['sheet5FAD7671'], ['sheet5FADBB9A'], ['sheet5FADBB99'], ['sheet5FADBB98'], ['sheet5FADBB97'], ['sheet5FADBB96'], ['sheet5FAD95DD'], ['sheet5FAD95DC'], ['sheet5FAD95DB'], ['sheet5FAD95DA'], ['sheet5FAD95D9'], ['sheet5FAD95D8'], ['sheet5FAD7676'], ['sheet5FAD7675'], ['sheet5FAD7674'], ['sheet5FAD7673'], ['sheet5FAD7672'], ['sheet5FAD5C84'], ['sheet5FAD5C83'], ['sheet5FAD5C82'], ['sheet5FAD5C81'], ['sheet5FAD5C80'], ['sheet5FAD5C7F'], ['sheet5F92CD21'], ['sheet5F916D5D'], ['sheet5F914750'], ['sheet5F91474F'], ['sheet5F91370A']]
+10-27 17:36:19 replicate_layout.replicatelayout 284:All sheets to replicate sorted:
+[['sheet5F91370A'], ['sheet5F91474F'], ['sheet5F914750'], ['sheet5F916D5D'], ['sheet5F92CD21'], ['sheet5F99063F'], ['sheet5FAD5C7F'], ['sheet5FAD5C80'], ['sheet5FAD5C81'], ['sheet5FAD5C82'], ['sheet5FAD5C83'], ['sheet5FAD5C84'], ['sheet5FAD7671'], ['sheet5FAD7672'], ['sheet5FAD7673'], ['sheet5FAD7674'], ['sheet5FAD7675'], ['sheet5FAD7676'], ['sheet5FAD95D8'], ['sheet5FAD95D9'], ['sheet5FAD95DA'], ['sheet5FAD95DB'], ['sheet5FAD95DC'], ['sheet5FAD95DD'], ['sheet5FADBB95'], ['sheet5FADBB96'], ['sheet5FADBB97'], ['sheet5FADBB98'], ['sheet5FADBB99'], ['sheet5FADBB9A']]
+10-27 17:36:19 replicate_layout.replicatelayout 290:All sheets to replicate sorted and without source sheet:
+[['sheet5F91370A'], ['sheet5F91474F'], ['sheet5F914750'], ['sheet5F916D5D'], ['sheet5F92CD21'], ['sheet5FAD5C7F'], ['sheet5FAD5C80'], ['sheet5FAD5C81'], ['sheet5FAD5C82'], ['sheet5FAD5C83'], ['sheet5FAD5C84'], ['sheet5FAD7671'], ['sheet5FAD7672'], ['sheet5FAD7673'], ['sheet5FAD7674'], ['sheet5FAD7675'], ['sheet5FAD7676'], ['sheet5FAD95D8'], ['sheet5FAD95D9'], ['sheet5FAD95DA'], ['sheet5FAD95DB'], ['sheet5FAD95DC'], ['sheet5FAD95DD'], ['sheet5FADBB95'], ['sheet5FADBB96'], ['sheet5FADBB97'], ['sheet5FADBB98'], ['sheet5FADBB99'], ['sheet5FADBB9A']]
+10-27 17:36:32 replicate_layout.replicatelayout 249:construcing a list of sheets suitable for replication on level:'sheet5F99063F', file:'driver.sch'
+10-27 17:36:32 replicate_layout.replicatelayout 256:Source sheet path up to the level:['sheet5F99063F']
+10-27 17:36:32 replicate_layout.replicatelayout 260:Footprints on the sheets:
+['U25', 'U2', 'U32', 'U30', 'U29', 'U28', 'U27', 'U26', 'U24', 'U23', 'U22', 'U21', 'U20', 'U19', 'U18', 'U17', 'U16', 'U15', 'U14', 'U13', 'U12', 'U11', 'U10', 'U9', 'U8', 'U7', 'U6', 'U5', 'U4', 'U3']
+10-27 17:36:32 replicate_layout.replicatelayout 263:Footprints raw sheet ids:
+['/5FADBB9F/5F964629', '/5F990647/5F964629', '/5FAD767B/5F964629', '/5FADBBBD/5F964629', '/5FADBBB3/5F964629', '/5FADBBAE/5F964629', '/5FADBBA9/5F964629', '/5FADBBA4/5F964629', '/5FAD9600/5F964629', '/5FAD95F6/5F964629', '/5FAD95F1/5F964629', '/5FAD95EC/5F964629', '/5FAD95E7/5F964629', '/5FAD95E2/5F964629', '/5FAD7699/5F964629', '/5FAD768F/5F964629', '/5FAD768A/5F964629', '/5FAD7685/5F964629', '/5FAD7680/5F964629', '/5FAD5CA7/5F964629', '/5FAD5C9D/5F964629', '/5FAD5C98/5F964629', '/5FAD5C93/5F964629', '/5FAD5C8E/5F964629', '/5FAD5C89/5F964629', '/5F92CD29/5F964629', '/5F916D61/5F964629', '/5F914758/5F964629', '/5F914754/5F964629', '/5F91370E/5F964629']
+10-27 17:36:32 replicate_layout.replicatelayout 279:All sheets to replicate:
+[['sheet5FADBB95'], ['sheet5F99063F'], ['sheet5FAD7671'], ['sheet5FADBB9A'], ['sheet5FADBB99'], ['sheet5FADBB98'], ['sheet5FADBB97'], ['sheet5FADBB96'], ['sheet5FAD95DD'], ['sheet5FAD95DC'], ['sheet5FAD95DB'], ['sheet5FAD95DA'], ['sheet5FAD95D9'], ['sheet5FAD95D8'], ['sheet5FAD7676'], ['sheet5FAD7675'], ['sheet5FAD7674'], ['sheet5FAD7673'], ['sheet5FAD7672'], ['sheet5FAD5C84'], ['sheet5FAD5C83'], ['sheet5FAD5C82'], ['sheet5FAD5C81'], ['sheet5FAD5C80'], ['sheet5FAD5C7F'], ['sheet5F92CD21'], ['sheet5F916D5D'], ['sheet5F914750'], ['sheet5F91474F'], ['sheet5F91370A']]
+10-27 17:36:32 replicate_layout.replicatelayout 284:All sheets to replicate sorted:
+[['sheet5F91370A'], ['sheet5F91474F'], ['sheet5F914750'], ['sheet5F916D5D'], ['sheet5F92CD21'], ['sheet5F99063F'], ['sheet5FAD5C7F'], ['sheet5FAD5C80'], ['sheet5FAD5C81'], ['sheet5FAD5C82'], ['sheet5FAD5C83'], ['sheet5FAD5C84'], ['sheet5FAD7671'], ['sheet5FAD7672'], ['sheet5FAD7673'], ['sheet5FAD7674'], ['sheet5FAD7675'], ['sheet5FAD7676'], ['sheet5FAD95D8'], ['sheet5FAD95D9'], ['sheet5FAD95DA'], ['sheet5FAD95DB'], ['sheet5FAD95DC'], ['sheet5FAD95DD'], ['sheet5FADBB95'], ['sheet5FADBB96'], ['sheet5FADBB97'], ['sheet5FADBB98'], ['sheet5FADBB99'], ['sheet5FADBB9A']]
+10-27 17:36:32 replicate_layout.replicatelayout 290:All sheets to replicate sorted and without source sheet:
+[['sheet5F91370A'], ['sheet5F91474F'], ['sheet5F914750'], ['sheet5F916D5D'], ['sheet5F92CD21'], ['sheet5FAD5C7F'], ['sheet5FAD5C80'], ['sheet5FAD5C81'], ['sheet5FAD5C82'], ['sheet5FAD5C83'], ['sheet5FAD5C84'], ['sheet5FAD7671'], ['sheet5FAD7672'], ['sheet5FAD7673'], ['sheet5FAD7674'], ['sheet5FAD7675'], ['sheet5FAD7676'], ['sheet5FAD95D8'], ['sheet5FAD95D9'], ['sheet5FAD95DA'], ['sheet5FAD95DB'], ['sheet5FAD95DC'], ['sheet5FAD95DD'], ['sheet5FADBB95'], ['sheet5FADBB96'], ['sheet5FADBB97'], ['sheet5FADBB98'], ['sheet5FADBB99'], ['sheet5FADBB9A']]
+10-27 17:36:32 replicate_layout.action_replicate_layout 179:Replicating layout
+10-27 17:36:32 replicate_layout.replicatelayout 987:Starting replication of sheets: [['sheet5F91370A'], ['sheet5F91474F'], ['sheet5F914750'], ['sheet5F916D5D'], ['sheet5F92CD21'], ['sheet5FAD5C7F'], ['sheet5FAD5C80'], ['sheet5FAD5C81'], ['sheet5FAD5C82'], ['sheet5FAD5C83'], ['sheet5FAD5C84'], ['sheet5FAD7671'], ['sheet5FAD7672'], ['sheet5FAD7673'], ['sheet5FAD7674'], ['sheet5FAD7675'], ['sheet5FAD7676'], ['sheet5FAD95D8'], ['sheet5FAD95D9'], ['sheet5FAD95DA'], ['sheet5FAD95DB'], ['sheet5FAD95DC'], ['sheet5FAD95DD'], ['sheet5FADBB95'], ['sheet5FADBB96'], ['sheet5FADBB97'], ['sheet5FADBB98'], ['sheet5FADBB99'], ['sheet5FADBB9A']]
+on level: ['sheet5F99063F']
+with tracks=True, zone=True, text=True, containing=True, remove=True, locked=False
+10-27 17:36:32 root 261:updating GUI message: 'Preparing for replication'
+10-27 17:36:33 root 266:updating GUI with: 0
+10-27 17:36:33 replicate_layout.replicatelayout 556:Getting the list of source footprints
+10-27 17:36:33 root 266:updating GUI with: 0
+10-27 17:36:33 replicate_layout.replicatelayout 560:Getting the list of all the remaining footprints
+10-27 17:36:33 replicate_layout.replicatelayout 564:Getting nets local to source footprints
+10-27 17:36:33 replicate_layout.replicatelayout 568:Getting source bounding box
+10-27 17:36:33 root 266:updating GUI with: 37
+10-27 17:36:33 replicate_layout.replicatelayout 572:Getting source tracks
+10-27 17:36:33 replicate_layout.replicatelayout 576:Getting source zones
+10-27 17:36:33 root 266:updating GUI with: 62
+10-27 17:36:33 replicate_layout.replicatelayout 580:Getting source text items
+10-27 17:36:33 replicate_layout.replicatelayout 584:Getting source text items
+10-27 17:36:33 replicate_layout.replicatelayout 1018:Removing tracks and zones, before module placement
+10-27 17:36:33 root 261:updating GUI message: 'Removing zones and tracks'
+10-27 17:36:33 root 266:updating GUI with: 0
+10-27 17:36:33 root 266:updating GUI with: 3
+10-27 17:36:33 root 266:updating GUI with: 6
+10-27 17:36:33 root 266:updating GUI with: 10
+10-27 17:36:34 root 266:updating GUI with: 13
+10-27 17:36:34 root 266:updating GUI with: 17
+10-27 17:36:34 root 266:updating GUI with: 20
+10-27 17:36:34 root 266:updating GUI with: 24
+10-27 17:36:34 root 266:updating GUI with: 27
+10-27 17:36:34 root 266:updating GUI with: 31
+10-27 17:36:34 root 266:updating GUI with: 34
+10-27 17:36:34 root 266:updating GUI with: 37
+10-27 17:36:35 root 266:updating GUI with: 41
+10-27 17:36:35 root 266:updating GUI with: 44
+10-27 17:36:35 root 266:updating GUI with: 48
+10-27 17:36:35 root 266:updating GUI with: 51
+10-27 17:36:35 root 266:updating GUI with: 55
+10-27 17:36:35 root 266:updating GUI with: 58
+10-27 17:36:35 root 266:updating GUI with: 62
+10-27 17:36:35 root 266:updating GUI with: 65
+10-27 17:36:35 root 266:updating GUI with: 68
+10-27 17:36:35 root 266:updating GUI with: 72
+10-27 17:36:35 root 266:updating GUI with: 75
+10-27 17:36:35 root 266:updating GUI with: 79
+10-27 17:36:36 root 266:updating GUI with: 82
+10-27 17:36:36 root 266:updating GUI with: 86
+10-27 17:36:36 root 266:updating GUI with: 89
+10-27 17:36:36 root 266:updating GUI with: 93
+10-27 17:36:36 root 266:updating GUI with: 96
+10-27 17:36:36 root 261:updating GUI message: 'Replicating footprints'
+10-27 17:36:36 root 266:updating GUI with: 0
+10-27 17:36:36 replicate_layout.replicatelayout 590:Replicating footprints
+10-27 17:36:36 root 266:updating GUI with: 0
+10-27 17:36:36 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['sheet5F91370A']
+10-27 17:36:36 root 266:updating GUI with: 0
+10-27 17:36:36 root 266:updating GUI with: 1
+10-27 17:36:36 root 266:updating GUI with: 2
+10-27 17:36:36 root 266:updating GUI with: 2
+10-27 17:36:36 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['sheet5F91474F']
+10-27 17:36:36 root 266:updating GUI with: 4
+10-27 17:36:36 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['sheet5F914750']
+10-27 17:36:36 root 266:updating GUI with: 7
+10-27 17:36:36 root 266:updating GUI with: 8
+10-27 17:36:36 root 266:updating GUI with: 9
+10-27 17:36:36 root 266:updating GUI with: 10
+10-27 17:36:36 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['sheet5F916D5D']
+10-27 17:36:36 root 266:updating GUI with: 11
+10-27 17:36:36 root 266:updating GUI with: 11
+10-27 17:36:36 root 266:updating GUI with: 12
+10-27 17:36:36 root 266:updating GUI with: 13
+10-27 17:36:36 root 266:updating GUI with: 13
+10-27 17:36:36 root 266:updating GUI with: 13
+10-27 17:36:36 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['sheet5F92CD21']
+10-27 17:36:36 root 266:updating GUI with: 15
+10-27 17:36:36 root 266:updating GUI with: 16
+10-27 17:36:36 root 266:updating GUI with: 17
+10-27 17:36:36 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['sheet5FAD5C7F']
+10-27 17:36:36 root 266:updating GUI with: 18
+10-27 17:36:36 root 266:updating GUI with: 19
+10-27 17:36:36 root 266:updating GUI with: 20
+10-27 17:36:36 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['sheet5FAD5C80']
+10-27 17:36:36 root 266:updating GUI with: 22
+10-27 17:36:36 root 266:updating GUI with: 23
+10-27 17:36:36 root 266:updating GUI with: 24
+10-27 17:36:36 root 266:updating GUI with: 24
+10-27 17:36:36 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['sheet5FAD5C81']
+10-27 17:36:36 root 266:updating GUI with: 24
+10-27 17:36:36 root 266:updating GUI with: 25
+10-27 17:36:36 root 266:updating GUI with: 27
+10-27 17:36:36 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['sheet5FAD5C82']
+10-27 17:36:36 root 266:updating GUI with: 28
+10-27 17:36:36 root 266:updating GUI with: 29
+10-27 17:36:36 root 266:updating GUI with: 30
+10-27 17:36:36 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['sheet5FAD5C83']
+10-27 17:36:36 root 266:updating GUI with: 31
+10-27 17:36:36 root 266:updating GUI with: 33
+10-27 17:36:36 root 266:updating GUI with: 33
+10-27 17:36:36 root 266:updating GUI with: 34
+10-27 17:36:36 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['sheet5FAD5C84']
+10-27 17:36:36 root 266:updating GUI with: 35
+10-27 17:36:36 root 266:updating GUI with: 35
+10-27 17:36:36 root 266:updating GUI with: 37
+10-27 17:36:36 root 266:updating GUI with: 37
+10-27 17:36:36 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['sheet5FAD7671']
+10-27 17:36:36 root 266:updating GUI with: 39
+10-27 17:36:36 root 266:updating GUI with: 41
+10-27 17:36:36 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['sheet5FAD7672']
+10-27 17:36:36 root 266:updating GUI with: 42
+10-27 17:36:36 root 266:updating GUI with: 43
+10-27 17:36:36 root 266:updating GUI with: 44
+10-27 17:36:36 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['sheet5FAD7673']
+10-27 17:36:36 root 266:updating GUI with: 46
+10-27 17:36:36 root 266:updating GUI with: 47
+10-27 17:36:36 root 266:updating GUI with: 48
+10-27 17:36:36 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['sheet5FAD7674']
+10-27 17:36:36 root 266:updating GUI with: 48
+10-27 17:36:36 root 266:updating GUI with: 50
+10-27 17:36:36 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['sheet5FAD7675']
+10-27 17:36:36 root 266:updating GUI with: 52
+10-27 17:36:36 root 266:updating GUI with: 53
+10-27 17:36:36 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['sheet5FAD7676']
+10-27 17:36:36 root 266:updating GUI with: 56
+10-27 17:36:36 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['sheet5FAD95D8']
+10-27 17:36:36 root 266:updating GUI with: 59
+10-27 17:36:36 root 266:updating GUI with: 60
+10-27 17:36:36 root 266:updating GUI with: 62
+10-27 17:36:36 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['sheet5FAD95D9']
+10-27 17:36:36 root 266:updating GUI with: 63
+10-27 17:36:36 root 266:updating GUI with: 64
+10-27 17:36:36 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['sheet5FAD95DA']
+10-27 17:36:36 root 266:updating GUI with: 66
+10-27 17:36:36 root 266:updating GUI with: 68
+10-27 17:36:37 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['sheet5FAD95DB']
+10-27 17:36:37 root 266:updating GUI with: 71
+10-27 17:36:37 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['sheet5FAD95DC']
+10-27 17:36:37 root 266:updating GUI with: 73
+10-27 17:36:37 root 266:updating GUI with: 73
+10-27 17:36:37 root 266:updating GUI with: 75
+10-27 17:36:37 root 266:updating GUI with: 75
+10-27 17:36:37 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['sheet5FAD95DD']
+10-27 17:36:37 root 266:updating GUI with: 76
+10-27 17:36:37 root 266:updating GUI with: 77
+10-27 17:36:37 root 266:updating GUI with: 78
+10-27 17:36:37 root 266:updating GUI with: 79
+10-27 17:36:37 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['sheet5FADBB95']
+10-27 17:36:37 root 266:updating GUI with: 81
+10-27 17:36:37 root 266:updating GUI with: 82
+10-27 17:36:37 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['sheet5FADBB96']
+10-27 17:36:37 root 266:updating GUI with: 84
+10-27 17:36:37 root 266:updating GUI with: 86
+10-27 17:36:37 root 266:updating GUI with: 86
+10-27 17:36:37 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['sheet5FADBB97']
+10-27 17:36:37 root 266:updating GUI with: 88
+10-27 17:36:37 root 266:updating GUI with: 89
+10-27 17:36:37 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['sheet5FADBB98']
+10-27 17:36:37 root 266:updating GUI with: 91
+10-27 17:36:37 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['sheet5FADBB99']
+10-27 17:36:37 root 266:updating GUI with: 93
+10-27 17:36:37 root 266:updating GUI with: 94
+10-27 17:36:37 root 266:updating GUI with: 96
+10-27 17:36:37 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['sheet5FADBB9A']
+10-27 17:36:37 root 266:updating GUI with: 97
+10-27 17:36:37 root 266:updating GUI with: 97
+10-27 17:36:37 root 266:updating GUI with: 99
+10-27 17:36:37 replicate_layout.replicatelayout 1026:Removing tracks and zones, after module placement
+10-27 17:36:37 root 261:updating GUI message: 'Removing zones and tracks'
+10-27 17:36:37 root 266:updating GUI with: 0
+10-27 17:36:37 root 266:updating GUI with: 3
+10-27 17:36:37 root 266:updating GUI with: 6
+10-27 17:36:37 root 266:updating GUI with: 10
+10-27 17:36:37 root 266:updating GUI with: 13
+10-27 17:36:37 root 266:updating GUI with: 17
+10-27 17:36:37 root 266:updating GUI with: 20
+10-27 17:36:37 root 266:updating GUI with: 24
+10-27 17:36:37 root 266:updating GUI with: 27
+10-27 17:36:37 root 266:updating GUI with: 31
+10-27 17:36:37 root 266:updating GUI with: 34
+10-27 17:36:37 root 266:updating GUI with: 37
+10-27 17:36:37 root 266:updating GUI with: 41
+10-27 17:36:37 root 266:updating GUI with: 44
+10-27 17:36:37 root 266:updating GUI with: 48
+10-27 17:36:37 root 266:updating GUI with: 51
+10-27 17:36:37 root 266:updating GUI with: 55
+10-27 17:36:37 root 266:updating GUI with: 58
+10-27 17:36:37 root 266:updating GUI with: 62
+10-27 17:36:37 root 266:updating GUI with: 65
+10-27 17:36:38 root 266:updating GUI with: 68
+10-27 17:36:38 root 266:updating GUI with: 72
+10-27 17:36:38 root 266:updating GUI with: 75
+10-27 17:36:38 root 266:updating GUI with: 79
+10-27 17:36:38 root 266:updating GUI with: 82
+10-27 17:36:38 root 266:updating GUI with: 86
+10-27 17:36:38 root 266:updating GUI with: 89
+10-27 17:36:38 root 266:updating GUI with: 93
+10-27 17:36:38 root 266:updating GUI with: 96
+10-27 17:36:38 root 261:updating GUI message: 'Replicating tracks'
+10-27 17:36:38 root 266:updating GUI with: 0
+10-27 17:36:38 replicate_layout.replicatelayout 716:Replicating tracks
+10-27 17:36:38 root 266:updating GUI with: 0
+10-27 17:36:38 replicate_layout.replicatelayout 722:Replicating tracks on sheet ['sheet5F91370A']
+10-27 17:36:38 root 266:updating GUI with: 0
+10-27 17:36:38 replicate_layout.replicatelayout 722:Replicating tracks on sheet ['sheet5F91474F']
+10-27 17:36:38 root 266:updating GUI with: 3
+10-27 17:36:38 root 266:updating GUI with: 4
+10-27 17:36:38 root 266:updating GUI with: 5
+10-27 17:36:38 replicate_layout.replicatelayout 722:Replicating tracks on sheet ['sheet5F914750']
+10-27 17:36:38 root 266:updating GUI with: 6
+10-27 17:36:38 replicate_layout.replicatelayout 722:Replicating tracks on sheet ['sheet5F916D5D']
+10-27 17:36:38 root 266:updating GUI with: 10
+10-27 17:36:38 replicate_layout.replicatelayout 722:Replicating tracks on sheet ['sheet5F92CD21']
+10-27 17:36:38 root 266:updating GUI with: 13
+10-27 17:36:38 replicate_layout.replicatelayout 722:Replicating tracks on sheet ['sheet5FAD5C7F']
+10-27 17:36:38 root 266:updating GUI with: 17
+10-27 17:36:38 replicate_layout.replicatelayout 722:Replicating tracks on sheet ['sheet5FAD5C80']
+10-27 17:36:38 root 266:updating GUI with: 20
+10-27 17:36:38 root 266:updating GUI with: 23
+10-27 17:36:38 replicate_layout.replicatelayout 722:Replicating tracks on sheet ['sheet5FAD5C81']
+10-27 17:36:38 root 266:updating GUI with: 24
+10-27 17:36:38 root 266:updating GUI with: 24
+10-27 17:36:38 root 266:updating GUI with: 24
+10-27 17:36:38 root 266:updating GUI with: 24
+10-27 17:36:38 root 266:updating GUI with: 24
+10-27 17:36:38 root 266:updating GUI with: 24
+10-27 17:36:38 root 266:updating GUI with: 24
+10-27 17:36:38 root 266:updating GUI with: 24
+10-27 17:36:38 root 266:updating GUI with: 24
+10-27 17:36:38 root 266:updating GUI with: 24
+10-27 17:36:38 root 266:updating GUI with: 24
+10-27 17:36:38 root 266:updating GUI with: 24
+10-27 17:36:38 root 266:updating GUI with: 26
+10-27 17:36:38 replicate_layout.replicatelayout 722:Replicating tracks on sheet ['sheet5FAD5C82']
+10-27 17:36:38 root 266:updating GUI with: 27
+10-27 17:36:38 root 266:updating GUI with: 28
+10-27 17:36:38 root 266:updating GUI with: 28
+10-27 17:36:38 root 266:updating GUI with: 28
+10-27 17:36:38 root 266:updating GUI with: 30
+10-27 17:36:38 replicate_layout.replicatelayout 722:Replicating tracks on sheet ['sheet5FAD5C83']
+10-27 17:36:38 root 266:updating GUI with: 31
+10-27 17:36:38 root 266:updating GUI with: 31
+10-27 17:36:38 root 266:updating GUI with: 31
+10-27 17:36:38 replicate_layout.replicatelayout 722:Replicating tracks on sheet ['sheet5FAD5C84']
+10-27 17:36:38 root 266:updating GUI with: 34
+10-27 17:36:38 root 266:updating GUI with: 37
+10-27 17:36:38 replicate_layout.replicatelayout 722:Replicating tracks on sheet ['sheet5FAD7671']
+10-27 17:36:38 root 266:updating GUI with: 37
+10-27 17:36:38 root 266:updating GUI with: 38
+10-27 17:36:38 root 266:updating GUI with: 38
+10-27 17:36:38 root 266:updating GUI with: 38
+10-27 17:36:38 root 266:updating GUI with: 38
+10-27 17:36:38 root 266:updating GUI with: 40
+10-27 17:36:38 replicate_layout.replicatelayout 722:Replicating tracks on sheet ['sheet5FAD7672']
+10-27 17:36:38 root 266:updating GUI with: 41
+10-27 17:36:38 root 266:updating GUI with: 41
+10-27 17:36:38 root 266:updating GUI with: 41
+10-27 17:36:38 root 266:updating GUI with: 42
+10-27 17:36:38 root 266:updating GUI with: 42
+10-27 17:36:38 root 266:updating GUI with: 42
+10-27 17:36:38 root 266:updating GUI with: 43
+10-27 17:36:38 root 266:updating GUI with: 44
+10-27 17:36:38 replicate_layout.replicatelayout 722:Replicating tracks on sheet ['sheet5FAD7673']
+10-27 17:36:38 root 266:updating GUI with: 44
+10-27 17:36:38 root 266:updating GUI with: 48
+10-27 17:36:38 replicate_layout.replicatelayout 722:Replicating tracks on sheet ['sheet5FAD7674']
+10-27 17:36:38 root 266:updating GUI with: 48
+10-27 17:36:38 root 266:updating GUI with: 48
+10-27 17:36:38 root 266:updating GUI with: 49
+10-27 17:36:38 root 266:updating GUI with: 51
+10-27 17:36:38 replicate_layout.replicatelayout 722:Replicating tracks on sheet ['sheet5FAD7675']
+10-27 17:36:38 root 266:updating GUI with: 51
+10-27 17:36:38 root 266:updating GUI with: 51
+10-27 17:36:39 root 266:updating GUI with: 53
+10-27 17:36:39 root 266:updating GUI with: 53
+10-27 17:36:39 root 266:updating GUI with: 53
+10-27 17:36:39 root 266:updating GUI with: 54
+10-27 17:36:39 root 266:updating GUI with: 54
+10-27 17:36:39 replicate_layout.replicatelayout 722:Replicating tracks on sheet ['sheet5FAD7676']
+10-27 17:36:39 root 266:updating GUI with: 55
+10-27 17:36:39 root 266:updating GUI with: 57
+10-27 17:36:39 replicate_layout.replicatelayout 722:Replicating tracks on sheet ['sheet5FAD95D8']
+10-27 17:36:39 root 266:updating GUI with: 58
+10-27 17:36:39 root 266:updating GUI with: 60
+10-27 17:36:39 root 266:updating GUI with: 60
+10-27 17:36:39 root 266:updating GUI with: 60
+10-27 17:36:39 root 266:updating GUI with: 60
+10-27 17:36:39 root 266:updating GUI with: 61
+10-27 17:36:39 replicate_layout.replicatelayout 722:Replicating tracks on sheet ['sheet5FAD95D9']
+10-27 17:36:39 root 266:updating GUI with: 62
+10-27 17:36:39 root 266:updating GUI with: 62
+10-27 17:36:39 root 266:updating GUI with: 62
+10-27 17:36:39 root 266:updating GUI with: 62
+10-27 17:36:39 root 266:updating GUI with: 65
+10-27 17:36:39 replicate_layout.replicatelayout 722:Replicating tracks on sheet ['sheet5FAD95DA']
+10-27 17:36:39 root 266:updating GUI with: 65
+10-27 17:36:39 root 266:updating GUI with: 66
+10-27 17:36:39 replicate_layout.replicatelayout 722:Replicating tracks on sheet ['sheet5FAD95DB']
+10-27 17:36:39 root 266:updating GUI with: 69
+10-27 17:36:39 root 266:updating GUI with: 72
+10-27 17:36:39 replicate_layout.replicatelayout 722:Replicating tracks on sheet ['sheet5FAD95DC']
+10-27 17:36:39 root 266:updating GUI with: 72
+10-27 17:36:39 root 266:updating GUI with: 72
+10-27 17:36:39 root 266:updating GUI with: 72
+10-27 17:36:39 root 266:updating GUI with: 72
+10-27 17:36:39 root 266:updating GUI with: 72
+10-27 17:36:39 root 266:updating GUI with: 72
+10-27 17:36:39 root 266:updating GUI with: 72
+10-27 17:36:39 root 266:updating GUI with: 74
+10-27 17:36:39 root 266:updating GUI with: 74
+10-27 17:36:39 replicate_layout.replicatelayout 722:Replicating tracks on sheet ['sheet5FAD95DD']
+10-27 17:36:39 root 266:updating GUI with: 75
+10-27 17:36:39 root 266:updating GUI with: 75
+10-27 17:36:39 root 266:updating GUI with: 76
+10-27 17:36:39 root 266:updating GUI with: 77
+10-27 17:36:39 root 266:updating GUI with: 77
+10-27 17:36:39 root 266:updating GUI with: 78
+10-27 17:36:39 root 266:updating GUI with: 79
+10-27 17:36:39 root 266:updating GUI with: 79
+10-27 17:36:39 root 266:updating GUI with: 79
+10-27 17:36:39 root 266:updating GUI with: 79
+10-27 17:36:39 root 266:updating GUI with: 79
+10-27 17:36:39 root 266:updating GUI with: 79
+10-27 17:36:39 replicate_layout.replicatelayout 722:Replicating tracks on sheet ['sheet5FADBB95']
+10-27 17:36:39 root 266:updating GUI with: 79
+10-27 17:36:39 root 266:updating GUI with: 80
+10-27 17:36:39 root 266:updating GUI with: 82
+10-27 17:36:39 replicate_layout.replicatelayout 722:Replicating tracks on sheet ['sheet5FADBB96']
+10-27 17:36:39 root 266:updating GUI with: 82
+10-27 17:36:39 root 266:updating GUI with: 83
+10-27 17:36:39 root 266:updating GUI with: 83
+10-27 17:36:39 root 266:updating GUI with: 83
+10-27 17:36:39 root 266:updating GUI with: 83
+10-27 17:36:39 root 266:updating GUI with: 83
+10-27 17:36:39 root 266:updating GUI with: 83
+10-27 17:36:39 root 266:updating GUI with: 84
+10-27 17:36:39 root 266:updating GUI with: 84
+10-27 17:36:39 root 266:updating GUI with: 84
+10-27 17:36:39 root 266:updating GUI with: 84
+10-27 17:36:39 root 266:updating GUI with: 84
+10-27 17:36:39 root 266:updating GUI with: 84
+10-27 17:36:39 root 266:updating GUI with: 86
+10-27 17:36:39 replicate_layout.replicatelayout 722:Replicating tracks on sheet ['sheet5FADBB97']
+10-27 17:36:39 root 266:updating GUI with: 86
+10-27 17:36:39 root 266:updating GUI with: 86
+10-27 17:36:39 root 266:updating GUI with: 86
+10-27 17:36:39 root 266:updating GUI with: 86
+10-27 17:36:39 root 266:updating GUI with: 86
+10-27 17:36:39 root 266:updating GUI with: 86
+10-27 17:36:39 root 266:updating GUI with: 86
+10-27 17:36:39 root 266:updating GUI with: 86
+10-27 17:36:39 root 266:updating GUI with: 87
+10-27 17:36:39 root 266:updating GUI with: 87
+10-27 17:36:39 root 266:updating GUI with: 87
+10-27 17:36:39 root 266:updating GUI with: 89
+10-27 17:36:39 replicate_layout.replicatelayout 722:Replicating tracks on sheet ['sheet5FADBB98']
+10-27 17:36:39 root 266:updating GUI with: 89
+10-27 17:36:39 root 266:updating GUI with: 89
+10-27 17:36:39 root 266:updating GUI with: 90
+10-27 17:36:39 root 266:updating GUI with: 90
+10-27 17:36:39 root 266:updating GUI with: 90
+10-27 17:36:39 root 266:updating GUI with: 91
+10-27 17:36:39 replicate_layout.replicatelayout 722:Replicating tracks on sheet ['sheet5FADBB99']
+10-27 17:36:39 root 266:updating GUI with: 93
+10-27 17:36:39 root 266:updating GUI with: 93
+10-27 17:36:39 root 266:updating GUI with: 93
+10-27 17:36:39 root 266:updating GUI with: 93
+10-27 17:36:39 root 266:updating GUI with: 93
+10-27 17:36:39 root 266:updating GUI with: 95
+10-27 17:36:39 replicate_layout.replicatelayout 722:Replicating tracks on sheet ['sheet5FADBB9A']
+10-27 17:36:39 root 266:updating GUI with: 96
+10-27 17:36:39 root 266:updating GUI with: 97
+10-27 17:36:39 root 266:updating GUI with: 98
+10-27 17:36:39 root 261:updating GUI message: 'Replicating zones'
+10-27 17:36:39 replicate_layout.replicatelayout 767:Replicating zones
+10-27 17:36:39 root 266:updating GUI with: 0
+10-27 17:36:40 replicate_layout.replicatelayout 774:Replicating zones on sheet ['sheet5F91370A']
+10-27 17:36:40 root 266:updating GUI with: 3
+10-27 17:36:40 replicate_layout.replicatelayout 774:Replicating zones on sheet ['sheet5F91474F']
+10-27 17:36:40 root 266:updating GUI with: 6
+10-27 17:36:40 replicate_layout.replicatelayout 774:Replicating zones on sheet ['sheet5F914750']
+10-27 17:36:40 root 266:updating GUI with: 10
+10-27 17:36:40 replicate_layout.replicatelayout 774:Replicating zones on sheet ['sheet5F916D5D']
+10-27 17:36:40 root 266:updating GUI with: 13
+10-27 17:36:40 replicate_layout.replicatelayout 774:Replicating zones on sheet ['sheet5F92CD21']
+10-27 17:36:40 root 266:updating GUI with: 17
+10-27 17:36:40 replicate_layout.replicatelayout 774:Replicating zones on sheet ['sheet5FAD5C7F']
+10-27 17:36:40 root 266:updating GUI with: 20
+10-27 17:36:40 replicate_layout.replicatelayout 774:Replicating zones on sheet ['sheet5FAD5C80']
+10-27 17:36:40 root 266:updating GUI with: 24
+10-27 17:36:40 replicate_layout.replicatelayout 774:Replicating zones on sheet ['sheet5FAD5C81']
+10-27 17:36:40 root 266:updating GUI with: 27
+10-27 17:36:40 replicate_layout.replicatelayout 774:Replicating zones on sheet ['sheet5FAD5C82']
+10-27 17:36:40 root 266:updating GUI with: 31
+10-27 17:36:40 replicate_layout.replicatelayout 774:Replicating zones on sheet ['sheet5FAD5C83']
+10-27 17:36:40 root 266:updating GUI with: 34
+10-27 17:36:40 replicate_layout.replicatelayout 774:Replicating zones on sheet ['sheet5FAD5C84']
+10-27 17:36:40 root 266:updating GUI with: 37
+10-27 17:36:40 replicate_layout.replicatelayout 774:Replicating zones on sheet ['sheet5FAD7671']
+10-27 17:36:40 root 266:updating GUI with: 41
+10-27 17:36:40 replicate_layout.replicatelayout 774:Replicating zones on sheet ['sheet5FAD7672']
+10-27 17:36:40 root 266:updating GUI with: 44
+10-27 17:36:40 replicate_layout.replicatelayout 774:Replicating zones on sheet ['sheet5FAD7673']
+10-27 17:36:40 root 266:updating GUI with: 48
+10-27 17:36:40 replicate_layout.replicatelayout 774:Replicating zones on sheet ['sheet5FAD7674']
+10-27 17:36:40 root 266:updating GUI with: 51
+10-27 17:36:40 replicate_layout.replicatelayout 774:Replicating zones on sheet ['sheet5FAD7675']
+10-27 17:36:40 root 266:updating GUI with: 55
+10-27 17:36:40 replicate_layout.replicatelayout 774:Replicating zones on sheet ['sheet5FAD7676']
+10-27 17:36:40 root 266:updating GUI with: 58
+10-27 17:36:40 replicate_layout.replicatelayout 774:Replicating zones on sheet ['sheet5FAD95D8']
+10-27 17:36:40 root 266:updating GUI with: 62
+10-27 17:36:40 replicate_layout.replicatelayout 774:Replicating zones on sheet ['sheet5FAD95D9']
+10-27 17:36:40 root 266:updating GUI with: 65
+10-27 17:36:40 replicate_layout.replicatelayout 774:Replicating zones on sheet ['sheet5FAD95DA']
+10-27 17:36:40 root 266:updating GUI with: 68
+10-27 17:36:40 replicate_layout.replicatelayout 774:Replicating zones on sheet ['sheet5FAD95DB']
+10-27 17:36:40 root 266:updating GUI with: 72
+10-27 17:36:40 replicate_layout.replicatelayout 774:Replicating zones on sheet ['sheet5FAD95DC']
+10-27 17:36:40 root 266:updating GUI with: 75
+10-27 17:36:40 replicate_layout.replicatelayout 774:Replicating zones on sheet ['sheet5FAD95DD']
+10-27 17:36:40 root 266:updating GUI with: 79
+10-27 17:36:40 replicate_layout.replicatelayout 774:Replicating zones on sheet ['sheet5FADBB95']
+10-27 17:36:40 root 266:updating GUI with: 82
+10-27 17:36:40 replicate_layout.replicatelayout 774:Replicating zones on sheet ['sheet5FADBB96']
+10-27 17:36:40 root 266:updating GUI with: 86
+10-27 17:36:40 replicate_layout.replicatelayout 774:Replicating zones on sheet ['sheet5FADBB97']
+10-27 17:36:40 root 266:updating GUI with: 89
+10-27 17:36:40 replicate_layout.replicatelayout 774:Replicating zones on sheet ['sheet5FADBB98']
+10-27 17:36:40 root 266:updating GUI with: 93
+10-27 17:36:40 replicate_layout.replicatelayout 774:Replicating zones on sheet ['sheet5FADBB99']
+10-27 17:36:40 root 266:updating GUI with: 96
+10-27 17:36:40 replicate_layout.replicatelayout 774:Replicating zones on sheet ['sheet5FADBB9A']
+10-27 17:36:40 root 261:updating GUI message: 'Replicating text'
+10-27 17:36:40 root 266:updating GUI with: 0
+10-27 17:36:40 replicate_layout.replicatelayout 833:Replicating text
+10-27 17:36:40 root 266:updating GUI with: 0
+10-27 17:36:40 replicate_layout.replicatelayout 840:Replicating text on sheet ['sheet5F91370A']
+10-27 17:36:40 root 266:updating GUI with: 3
+10-27 17:36:40 replicate_layout.replicatelayout 840:Replicating text on sheet ['sheet5F91474F']
+10-27 17:36:40 root 266:updating GUI with: 6
+10-27 17:36:40 replicate_layout.replicatelayout 840:Replicating text on sheet ['sheet5F914750']
+10-27 17:36:40 root 266:updating GUI with: 10
+10-27 17:36:40 replicate_layout.replicatelayout 840:Replicating text on sheet ['sheet5F916D5D']
+10-27 17:36:40 replicate_layout.replicatelayout 840:Replicating text on sheet ['sheet5F92CD21']
+10-27 17:36:40 replicate_layout.replicatelayout 840:Replicating text on sheet ['sheet5FAD5C7F']
+10-27 17:36:40 replicate_layout.replicatelayout 840:Replicating text on sheet ['sheet5FAD5C80']
+10-27 17:36:40 replicate_layout.replicatelayout 840:Replicating text on sheet ['sheet5FAD5C81']
+10-27 17:36:40 replicate_layout.replicatelayout 840:Replicating text on sheet ['sheet5FAD5C82']
+10-27 17:36:40 replicate_layout.replicatelayout 840:Replicating text on sheet ['sheet5FAD5C83']
+10-27 17:36:40 replicate_layout.replicatelayout 840:Replicating text on sheet ['sheet5FAD5C84']
+10-27 17:36:40 replicate_layout.replicatelayout 840:Replicating text on sheet ['sheet5FAD7671']
+10-27 17:36:40 replicate_layout.replicatelayout 840:Replicating text on sheet ['sheet5FAD7672']
+10-27 17:36:40 replicate_layout.replicatelayout 840:Replicating text on sheet ['sheet5FAD7673']
+10-27 17:36:40 replicate_layout.replicatelayout 840:Replicating text on sheet ['sheet5FAD7674']
+10-27 17:36:40 replicate_layout.replicatelayout 840:Replicating text on sheet ['sheet5FAD7675']
+10-27 17:36:40 replicate_layout.replicatelayout 840:Replicating text on sheet ['sheet5FAD7676']
+10-27 17:36:40 replicate_layout.replicatelayout 840:Replicating text on sheet ['sheet5FAD95D8']
+10-27 17:36:40 replicate_layout.replicatelayout 840:Replicating text on sheet ['sheet5FAD95D9']
+10-27 17:36:40 replicate_layout.replicatelayout 840:Replicating text on sheet ['sheet5FAD95DA']
+10-27 17:36:40 replicate_layout.replicatelayout 840:Replicating text on sheet ['sheet5FAD95DB']
+10-27 17:36:40 replicate_layout.replicatelayout 840:Replicating text on sheet ['sheet5FAD95DC']
+10-27 17:36:40 replicate_layout.replicatelayout 840:Replicating text on sheet ['sheet5FAD95DD']
+10-27 17:36:40 root 266:updating GUI with: 79
+10-27 17:36:40 replicate_layout.replicatelayout 840:Replicating text on sheet ['sheet5FADBB95']
+10-27 17:36:40 replicate_layout.replicatelayout 840:Replicating text on sheet ['sheet5FADBB96']
+10-27 17:36:40 replicate_layout.replicatelayout 840:Replicating text on sheet ['sheet5FADBB97']
+10-27 17:36:40 replicate_layout.replicatelayout 840:Replicating text on sheet ['sheet5FADBB98']
+10-27 17:36:40 replicate_layout.replicatelayout 840:Replicating text on sheet ['sheet5FADBB99']
+10-27 17:36:40 replicate_layout.replicatelayout 840:Replicating text on sheet ['sheet5FADBB9A']
+10-27 17:36:40 root 261:updating GUI message: 'Replicating drawings'
+10-27 17:36:40 replicate_layout.replicatelayout 864:Replicating drawings
+10-27 17:36:40 root 266:updating GUI with: 0
+10-27 17:36:40 replicate_layout.replicatelayout 870:Replicating drawings on sheet ['sheet5F91370A']
+10-27 17:36:40 replicate_layout.replicatelayout 870:Replicating drawings on sheet ['sheet5F91474F']
+10-27 17:36:40 replicate_layout.replicatelayout 870:Replicating drawings on sheet ['sheet5F914750']
+10-27 17:36:40 replicate_layout.replicatelayout 870:Replicating drawings on sheet ['sheet5F916D5D']
+10-27 17:36:40 replicate_layout.replicatelayout 870:Replicating drawings on sheet ['sheet5F92CD21']
+10-27 17:36:40 replicate_layout.replicatelayout 870:Replicating drawings on sheet ['sheet5FAD5C7F']
+10-27 17:36:40 replicate_layout.replicatelayout 870:Replicating drawings on sheet ['sheet5FAD5C80']
+10-27 17:36:40 replicate_layout.replicatelayout 870:Replicating drawings on sheet ['sheet5FAD5C81']
+10-27 17:36:40 replicate_layout.replicatelayout 870:Replicating drawings on sheet ['sheet5FAD5C82']
+10-27 17:36:40 replicate_layout.replicatelayout 870:Replicating drawings on sheet ['sheet5FAD5C83']
+10-27 17:36:40 replicate_layout.replicatelayout 870:Replicating drawings on sheet ['sheet5FAD5C84']
+10-27 17:36:40 replicate_layout.replicatelayout 870:Replicating drawings on sheet ['sheet5FAD7671']
+10-27 17:36:40 replicate_layout.replicatelayout 870:Replicating drawings on sheet ['sheet5FAD7672']
+10-27 17:36:40 replicate_layout.replicatelayout 870:Replicating drawings on sheet ['sheet5FAD7673']
+10-27 17:36:40 replicate_layout.replicatelayout 870:Replicating drawings on sheet ['sheet5FAD7674']
+10-27 17:36:40 root 266:updating GUI with: 51
+10-27 17:36:40 replicate_layout.replicatelayout 870:Replicating drawings on sheet ['sheet5FAD7675']
+10-27 17:36:40 replicate_layout.replicatelayout 870:Replicating drawings on sheet ['sheet5FAD7676']
+10-27 17:36:40 replicate_layout.replicatelayout 870:Replicating drawings on sheet ['sheet5FAD95D8']
+10-27 17:36:40 replicate_layout.replicatelayout 870:Replicating drawings on sheet ['sheet5FAD95D9']
+10-27 17:36:40 root 266:updating GUI with: 65
+10-27 17:36:40 replicate_layout.replicatelayout 870:Replicating drawings on sheet ['sheet5FAD95DA']
+10-27 17:36:40 replicate_layout.replicatelayout 870:Replicating drawings on sheet ['sheet5FAD95DB']
+10-27 17:36:40 replicate_layout.replicatelayout 870:Replicating drawings on sheet ['sheet5FAD95DC']
+10-27 17:36:40 replicate_layout.replicatelayout 870:Replicating drawings on sheet ['sheet5FAD95DD']
+10-27 17:36:40 replicate_layout.replicatelayout 870:Replicating drawings on sheet ['sheet5FADBB95']
+10-27 17:36:40 replicate_layout.replicatelayout 870:Replicating drawings on sheet ['sheet5FADBB96']
+10-27 17:36:40 replicate_layout.replicatelayout 870:Replicating drawings on sheet ['sheet5FADBB97']
+10-27 17:36:40 replicate_layout.replicatelayout 870:Replicating drawings on sheet ['sheet5FADBB98']
+10-27 17:36:40 replicate_layout.replicatelayout 870:Replicating drawings on sheet ['sheet5FADBB99']
+10-27 17:36:40 replicate_layout.replicatelayout 870:Replicating drawings on sheet ['sheet5FADBB9A']
+10-27 17:36:41 replicate_layout.action_replicate_layout 201:Replication complete

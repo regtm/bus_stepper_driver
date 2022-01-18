@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name 3557-2)(type Legacy)(uri ${KIPRJMOD}/lib/custom.lib/3557-2.lib)(options "")(descr ""))
+  (lib (name SCWN06C-05)(type Legacy)(uri ${KIPRJMOD}/lib/custom.lib/SCWN06C-05.lib)(options "")(descr ""))
+  (lib (name RASPBERRYPI4_4GB)(type Legacy)(uri ${KIPRJMOD}/lib/RASPBERRYPI4_4GB/RASPBERRYPI4_4GB.lib)(options "")(descr ""))
+  (lib (name Project-Lib)(type Legacy)(uri ${KIPRJMOD}/lib/symbols/Project-Lib.lib)(options "")(descr ""))
+  (lib (name motherboard-rescue)(type Legacy)(uri ${KIPRJMOD}/motherboard-rescue.lib)(options "")(descr ""))
+)

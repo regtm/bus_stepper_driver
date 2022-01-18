@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TMC5130A-TA_BOB
+D TMC5130A-TAstepperdriverandcontroller
+F https://www.trinamic.com/fileadmin/assets/Products/Eval_Documents/TMC5130A-BOB_datasheet_Rev1.0.pdf
+$ENDCMP
+#
+#End Doc Library
